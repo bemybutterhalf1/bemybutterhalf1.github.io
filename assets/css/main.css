@@ -1996,6 +1996,15 @@ input, select, textarea {
 			overflow: hidden;
 		}
 
+			.main.style2 h2 {
+				font-size: 1.5em;
+				line-height: 1em;
+			}
+
+			.main.style2 p {
+				font-size: 1.125em;
+			}
+
 			.main.style2 > .content {
 				-moz-transition: -moz-transform 1s ease;
 				-webkit-transition: -webkit-transform 1s ease;
@@ -2042,6 +2051,14 @@ input, select, textarea {
 			text-align: center;
 			padding: 6em 0 6em 0;
 		}
+			.main.style3 h2 {
+				font-size: 1.5em;
+				line-height: 1em;
+			}
+
+			.main.style3 p {
+				font-size: 1em;
+			}
 
 			.main.style3 .content > header {
 				margin-bottom: 2em;
@@ -2109,9 +2126,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.main > .content br {
-				display: none;
-			}
+			/*.main > .content br {*/
+			/*	display: none;*/
+			/*}*/
 
 			.main.fullscreen {
 				height: auto !important;
