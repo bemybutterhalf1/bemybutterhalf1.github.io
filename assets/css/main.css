@@ -1958,8 +1958,12 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 2em;
 				line-height: 1em;
+			}
+
+			.main.style1 p {
+				font-size: 1.125em;
 			}
 
 			.main.style1 > .content {
