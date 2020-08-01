@@ -625,6 +625,8 @@ input, select, textarea {
 		color: #424242;
 		padding: 2em;
 		opacity: .9;
+		-webkit-align-self: flex-end;
+
 	}
 
 		.box > :last-child {
@@ -2026,6 +2028,7 @@ input, select, textarea {
 				-webkit-justify-content: -webkit-flex-start;
 				-ms-justify-content: -ms-flex-start;
 				justify-content: flex-start;
+				text-align: center;
 			}
 
 			.main.style2.right {
@@ -2033,6 +2036,7 @@ input, select, textarea {
 				-webkit-justify-content: -webkit-flex-end;
 				-ms-justify-content: -ms-flex-end;
 				justify-content: flex-end;
+				text-align: center;
 			}
 
 			.main.style2.inactive.left > .content {
